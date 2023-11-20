@@ -18,22 +18,7 @@
   --p-font: 1.1rem;
 }
 
-:root.dark-theme {
-  --bg-color: #000;
-  --text-color: #999;
-  --second-color: #5a7184;
-  --main-color: #6e54fa;
-  --big-font: 6rem;
-  --h2-font: 3rem;
-  --p-font: 1.1rem;
-}
-
 body {
-  background: var(--bg-color);
-  color: var(--text-color);
-}
-
-body.dark-theme {
   background: var(--bg-color);
   color: var(--text-color);
 }
