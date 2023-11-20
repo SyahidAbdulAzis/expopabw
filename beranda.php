@@ -39,10 +39,6 @@ include "koneksi.php";
         <li><a href="./tentang.html">Tentang</a></li>
         <li><a href="#login">Login</a></li>
       </ul>
-      <div class="toggle-btn" id="btn">
-        <span id="btnText">Dark</span>
-        <img src="images/moon.png" id="btnIcon" />
-      </div>
     </header>
 
     <!-- Bagian beranda -->

@@ -72,23 +72,6 @@ header.sticky {
   transition: ease 0.4s;
 }
 
-.toggle-btn {
-  background: #40d3dc;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 40px;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
-.toggle-btn img {
-  width: 25px;
-  margin-left: 10px;
-}
-
 .navbar a:hover {
   background: var(--bg-color);
   color: var(--text-color);
