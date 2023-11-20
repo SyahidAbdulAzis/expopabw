@@ -212,7 +212,6 @@ include "koneksi.php";
         </div>
       </div>
 
-      <div class="load-more"><span class="button">Load More</span></div>
     </section>
     <?php
         }
