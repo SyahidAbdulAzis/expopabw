@@ -39,3 +39,16 @@ const filterCards = e => {
 
 //Add click event listener to each filter button
 filterButtons.forEach(button => button.addEventListener("click",filterCards))
+
+//login
+const logregBox = document.querySelector('.logreg-box');
+const loginLink = document.querySelector('.login-link');
+const registerLink = document.querySelector('.regist-link');
+
+registerLink.addEventListener('click', () => {
+    logregBox.classList.add('active');
+});
+
+loginLink.addEventListener('click', () => {
+    logregBox.classList.remove('active');
+});

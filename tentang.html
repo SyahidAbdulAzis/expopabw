@@ -24,23 +24,17 @@
     />
   </head>
   <body class="aboutbody">
-    <nav>
-      <img
-        src="images/vacansheesh.png"
-        class="logo"
-        alt="Logo"
-        title="FirstFlight Travels"
-      />
+    <header>
+      <a href="beranda" class="logo">Vacansheesh</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
 
       <ul class="navbar">
-        <li>
-          <a href="./beranda.html">Beranda</a>
-          <a href="./beranda.html#destinasi">Destinasi</a>
-          <a href="./tentang.html">Tentang</a>
-          <a href="./login.html">Login</a>
-        </li>
+        <li><a href="./beranda.html">Beranda</a></li>
+        <li><a href="./destinasi.html">Destinasi</a></li>
+        <li><a href="./tentang.html">Tentang</a></li>
+        <li><a href="./login.html">Login</a></li>
       </ul>
-    </nav>
+    </header>
 
     <section class="about">
       <div class="main">
@@ -101,5 +95,12 @@
         </p>
       </div>
     </section>
+    <script>
+      const header = document.querySelector("header");
+
+      window.addEventListener("scroll", function () {
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
   </body>
 </html>
