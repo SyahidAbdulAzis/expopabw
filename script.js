@@ -6,7 +6,7 @@ window.addEventListener("scroll", function(){
 });
 
 
-//bagian swipe, baris 2-9
+//bagian swipe
 var counter = 1;
 setInterval(function() {
     document.getElementById('radio' + counter).checked = true;
