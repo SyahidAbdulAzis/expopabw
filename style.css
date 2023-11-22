@@ -592,7 +592,11 @@ nav .logo {
   align-items: center;
 }
 
-.login{
+.loggiinn{
+  background: #221314;
+}
+
+.bglogin{
   background: url("images/login.jpg");
   width: 100%;
   height: 100vh;
