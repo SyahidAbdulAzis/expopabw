@@ -272,6 +272,21 @@ header.sticky {
 }
 
 /*bagian destinasi*/
+.destinasi{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+}
+
+.destinasi h2{
+  color: black;
+}
+
 .destinasi2{
   background: url("images/bgdestinasi.png");
   position: relative;
@@ -359,7 +374,7 @@ button.active {
 }
 
 .col-content img:hover {
-  filter: brightness(100%) hue-rotate(45deg);
+  filter: brightness(100%);
   transform: scale(1.04);
   cursor: pointer;
 }
